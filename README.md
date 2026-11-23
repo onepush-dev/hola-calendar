@@ -2,7 +2,7 @@
 
 [Hola-Calendar](https://github.com/Ray-hola/Hola-Calendar) (MIT, "Hola!" / 哗啦待办): a self-hosted task and project workbench for small teams: week view, projects, one-off and recurring tasks, daily notes, an inbox, team chat and an optional AI assistant. One Python file and one SQLite database; Chinese and English UI. Deploy it on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yOPQHd)
 
 ## What this template runs
 - **hola-calendar**: `ghcr.io/onepush-dev/hola-calendar:829d578`, built from upstream's own Dockerfile recipe at commit `829d578` (upstream publishes no image or release tags; application unmodified). Port 8080, health check `/api/health`, one volume at `/data` for the SQLite database.
